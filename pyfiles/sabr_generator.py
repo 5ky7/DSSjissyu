@@ -25,7 +25,7 @@ from typing import Iterable, Sequence
 import numpy as np
 
 
-TRADING_DAYS = 252
+TRADING_DAYS = 252 * 5
 EPSILON = 1e-12
 
 
@@ -317,9 +317,8 @@ def write_simulation_csv(
     simulated: dict[str, np.ndarray],
     asset_names: Sequence[str],
 ) -> None:
-    """Writes simulated returns and prices to a long-format CSV file."""
+    """Writes simulated returns to a long-format CSV file."""
     path = Path(path)
-    prices = simulated["prices"]
     returns = simulated["returns"]
     path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -331,8 +330,6 @@ def write_simulation_csv(
                 "step",
                 f"{asset_names[0]}_return",
                 f"{asset_names[1]}_return",
-                f"{asset_names[0]}_price",
-                f"{asset_names[1]}_price",
             ]
         )
         for path_index in range(returns.shape[0]):
@@ -343,8 +340,6 @@ def write_simulation_csv(
                         step + 1,
                         returns[path_index, step, 0],
                         returns[path_index, step, 1],
-                        prices[path_index, step + 1, 0],
-                        prices[path_index, step + 1, 1],
                     ]
                 )
 
@@ -436,7 +431,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
         help="Two comma-separated return column names.",
     )
     parser.add_argument("--steps", type=int, default=TRADING_DAYS, help="Steps to simulate.")
-    parser.add_argument("--paths", type=int, default=10, help="Number of paths.")
+    parser.add_argument("--paths", type=int, default=1, help="Number of paths.")
     parser.add_argument("--seed", type=int, default=7, help="Random seed.")
     parser.add_argument("--beta", default="1.0", help="Scalar or pair, e.g. 1.0 or 1.0,0.7.")
     parser.add_argument("--s0", default="100.0", help="Scalar or pair initial prices.")

@@ -49,3 +49,8 @@ generated_sabr_series.csv
 # Logs and caches
 *.log
 .cache/
+.matplotlib/
+
+# data
+data/
+plots/

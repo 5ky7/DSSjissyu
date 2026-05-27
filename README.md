@@ -32,7 +32,7 @@ venv/bin/python sabr_generator.py \
   --end-date 2026-12-31
 ```
 
-`generated_sabr_series.csv` は long format で、各パス・各ステップについて2資産のリターンと価格を出力します。`sabr_params.json` にはフィットされた各資産の `mu`, `alpha`, `beta`, `nu`, `rho` と、2資産間を含む4次元ブラウン運動の相関行列を保存します。
+`generated_sabr_series.csv` は long format で、各パス・各ステップについて2資産のリターンを出力します。`sabr_params.json` にはフィットされた各資産の `mu`, `alpha`, `beta`, `nu`, `rho` と、2資産間を含む4次元ブラウン運動の相関行列を保存します。
 
 ## モデルの扱い
 
