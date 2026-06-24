@@ -1,0 +1,11 @@
+bootstrap:
+  methods:
+    - iid
+    - moving_block
+    - stationary
+  block_lengths:
+    - 5
+    - 10
+    - 20
+    - 60
+    - 120

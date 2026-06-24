@@ -1,0 +1,4 @@
+model,correlation,df,rolling_window
+gaussian_copula,0.030051773490584785,,
+t_copula,0.030051773490584785,10.0,
+dynamic_gaussian_copula,0.030051773490584785,,252.0

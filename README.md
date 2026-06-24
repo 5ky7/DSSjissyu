@@ -50,3 +50,30 @@ d alpha_i = nu_i alpha_i dZ_i
 ## 拡張の方針
 
 将来的に期間ごとにフィットする場合は、`fit_two_asset_sabr_by_periods()` に `("1966-01-01", "1975-12-31")` のような期間ペアを渡すと、期間ごとの `TwoAssetSabrParams` を得られます。
+
+## SP500/DGS10 時系列生成 MVP
+
+`codex_timeseries_generation_plan.md` に基づく最小実装は `src/` と `scripts/` にあります。既存の `data/train_sp500_us10y.csv` から特徴量、診断表、bootstrap/DCC/ADCC 生成パス、比較表を作成します。
+
+```bash
+venv/bin/python scripts/00_prepare_data.py
+venv/bin/python scripts/01_diagnostics_real_data.py
+venv/bin/python scripts/02_fit_bootstrap.py
+venv/bin/python scripts/03_fit_marginals.py
+venv/bin/python scripts/04_fit_dcc.py
+venv/bin/python scripts/05_fit_adcc.py
+venv/bin/python scripts/06_fit_copula.py
+venv/bin/python scripts/08_fit_regime.py
+venv/bin/python scripts/07_evaluate_generated.py
+```
+
+主要な出力は次の通りです。
+
+- `data/processed/daily_features.csv`
+- `data/generated/bootstrap/generated_paths.csv`
+- `data/generated/dcc/generated_paths.csv`
+- `data/generated/adcc/generated_paths.csv`
+- `data/generated/copula/generated_paths.csv`
+- `data/generated/regime/generated_paths.csv`
+- `reports/tables/model_comparison.csv`
+- `reports/diagnostics/final_report.md`

@@ -1,0 +1,15 @@
+data:
+  input: data/train_sp500_us10y.csv
+  processed: data/processed/daily_features.csv
+  duration_years: 8.0
+
+simulation:
+  path_length: 1260
+  n_paths: 10000
+  seed: 42
+  version: B
+
+diagnostics:
+  rolling_window: 252
+  acf_lags: 20
+  leverage_lags: 20

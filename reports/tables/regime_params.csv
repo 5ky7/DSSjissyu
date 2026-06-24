@@ -1,0 +1,2 @@
+rolling_window,n_regimes,regime_names
+252,4,"highvol_negcorr,highvol_poscorr,lowvol_negcorr,lowvol_poscorr"

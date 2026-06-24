@@ -1,0 +1,6 @@
+adcc:
+  initial_a: 0.02
+  initial_b: 0.92
+  initial_g: 0.03
+  path_length: 1260
+  n_paths: 10000

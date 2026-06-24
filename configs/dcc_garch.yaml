@@ -1,0 +1,5 @@
+dcc:
+  initial_a: 0.03
+  initial_b: 0.94
+  path_length: 1260
+  n_paths: 10000

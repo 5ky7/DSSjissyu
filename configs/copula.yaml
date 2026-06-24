@@ -1,0 +1,5 @@
+copula:
+  enabled: false
+  candidates:
+    - gaussian
+    - t
