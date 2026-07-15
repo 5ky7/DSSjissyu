@@ -1,0 +1,15 @@
+{
+  "block_mean":63,
+  "block_min":3,
+  "block_max":126,
+  "noise_scale":0.0214632485,
+  "sp500_noise_floor":0.0000014498,
+  "dgs10_noise_multiplier":0.35,
+  "scale_jitter":0.0208483063,
+  "mean_jitter":0.0620453393,
+  "regime_radius":1260,
+  "continuation_prob":0.4021114397,
+  "tail_prob":0.001,
+  "dgs10_tick":0.01,
+  "profile":"balanced"
+}

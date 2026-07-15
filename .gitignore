@@ -56,7 +56,7 @@ data/
 plots/
 
 # 実験・検証時に生成される成果物
-reports/adversarial/
+# reports/adversarial/
 reports/diagnostics/*_comparison.md
 reports/tables/*_train_5y_*
 reports/tables/mcgan_*.csv

@@ -1,0 +1,2 @@
+label,window_id,source_path,start,end,robust_l2,robust_l2_pvalue,max_abs_z,mahalanobis,mahalanobis_pvalue,nearest_feature_distance,nearest_feature_pvalue,exact_row_match_fraction,nearest_raw_window_rms,nearest_raw_window_start
+mcgan_5y_1260_rankmap,mcgan_5y_1260_rankmap_0000,data/generated/mps_mcgan_20k/MCGAN/mcgan_5y_1260_rankmap.csv,0,1259,1.112637522208262,0.38161993769470404,6.797261741979157,1.2701229551965214,0.001557632398753894,0.8987490888586884,0.9984423676012462,0.0,1.2595313366162422,260

@@ -1,0 +1,6 @@
+window_id,true_class,source_window_id,source_start,source_end
+candidate_0,generated,block_submit_1,0,1259
+candidate_1,generated,block_submit_0,0,1259
+candidate_2,real,real_sample_1,10963,12222
+candidate_3,generated,block_submit_2,0,1259
+candidate_4,real,real_sample_0,3268,4527

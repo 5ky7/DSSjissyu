@@ -1,0 +1,11 @@
+label,source_path,eval_path,n_rows,dgs10_tick_fraction_before,dgs10_tick_fraction_after
+hashimoto_round001,data/generated_by_teammates/hashimoto.csv,reports/adversarial/dgs10_tick_ablation/rounded_inputs/hashimoto_round001.csv,1260,0.0,1.0
+makieda_round001,data/generated_by_teammates/makieda.csv,reports/adversarial/dgs10_tick_ablation/rounded_inputs/makieda_round001.csv,1260,0.0,1.0
+murayama_round001,data/generated_by_teammates/murayama.csv,reports/adversarial/dgs10_tick_ablation/rounded_inputs/murayama_round001.csv,14715,0.00013591573224600747,1.0
+setsu1_round001,data/generated_by_teammates/setsu1.csv,reports/adversarial/dgs10_tick_ablation/rounded_inputs/setsu1_round001.csv,1260,0.0,1.0
+setsu2_round001,data/generated_by_teammates/setsu2.csv,reports/adversarial/dgs10_tick_ablation/rounded_inputs/setsu2_round001.csv,1260,0.0,1.0
+quantgan_round001,data/generated/QuantGAN/quantgan_5y_1260.csv,reports/adversarial/dgs10_tick_ablation/rounded_inputs/quantgan_round001.csv,1260,0.0,1.0
+old_mcgan_round001,data/generated/SigWGANandBeyond/MCGAN/mcgan_5y_1260.csv,reports/adversarial/dgs10_tick_ablation/rounded_inputs/old_mcgan_round001.csv,1260,0.0,1.0
+mps_mcgan_20k_round001,data/generated/mps_mcgan_20k/MCGAN/mcgan_5y_1260.csv,reports/adversarial/dgs10_tick_ablation/rounded_inputs/mps_mcgan_20k_round001.csv,1260,0.0,1.0
+block_generator,data/generated/adversarial_block_gan/best_5y_1260.csv,data/generated/adversarial_block_gan/best_5y_1260.csv,1260,,
+real_sample_5_windows,data/train_sp500_us10y.csv,reports/adversarial/dgs10_tick_ablation/real_samples/real_sample_5_windows.csv,14734,1.0,1.0

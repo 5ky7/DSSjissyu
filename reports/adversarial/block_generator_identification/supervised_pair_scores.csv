@@ -1,0 +1,11 @@
+mode,candidate_a,candidate_b,label_a,label_b,individual_logit_sum,pair_feature_distance,pair_typicality_p,objective,rank,selected_pair,is_true_real_pair
+supervised_with_known_generated,candidate_3,candidate_4,candidate_3,candidate_4,3.6089826970786527,2.3478736928346757,0.21746483801673777,3.2275531706253178,1,True,False
+supervised_with_known_generated,candidate_2,candidate_4,candidate_2,candidate_4,2.8822369584685124,2.538568328280696,0.08399024115239938,2.2629732925572585,2,False,True
+supervised_with_known_generated,candidate_1,candidate_4,candidate_1,candidate_4,1.8154842454736153,2.2105083768063176,0.32681447497594307,1.535893589497326,3,False,False
+supervised_with_known_generated,candidate_2,candidate_3,candidate_2,candidate_3,1.0878913118314566,1.0889295494783109,0.33960595250823766,0.817898987656403,4,False,False
+supervised_with_known_generated,candidate_0,candidate_4,candidate_0,candidate_4,0.9938304946133087,2.3718108243958143,0.1977333035254323,0.5886214675796929,5,False,False
+supervised_with_known_generated,candidate_1,candidate_3,candidate_1,candidate_3,0.02113859883655944,1.3231258512962936,0.6686657400297431,-0.07947914739526993,6,False,False
+supervised_with_known_generated,candidate_1,candidate_2,candidate_1,candidate_2,-0.7056071397735809,1.088229975876312,0.3388089151544017,-0.9761868904324418,7,False,False
+supervised_with_known_generated,candidate_0,candidate_3,candidate_0,candidate_3,-0.800515152023747,0.39511576683914756,0.052478105772688834,-1.537354959340779,8,False,False
+supervised_with_known_generated,candidate_0,candidate_2,candidate_0,candidate_2,-1.5272608906338874,1.0171178831665384,0.26863074814591614,-1.8558652720953221,9,False,False
+supervised_with_known_generated,candidate_0,candidate_1,candidate_0,candidate_1,-2.5940136036287846,1.256228332036472,0.5664699993196023,-2.7360963930961444,10,False,False

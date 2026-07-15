@@ -1,0 +1,2 @@
+feature_mean_gap,feature_std_gap,feature_energy_distance,median_mahalanobis,median_robust_l2,min_mahalanobis_pvalue,outlier_rate_p05,median_nearest_feature_distance,classifier_auc,classifier_accuracy
+0.5883196048439162,0.5276083205127747,0.30793060557786056,1.1465931072280608,1.101339313326668,0.001557632398753894,1.0,0.8524627803716485,,

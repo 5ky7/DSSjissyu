@@ -1,0 +1,11 @@
+mode,candidate_a,candidate_b,label_a,label_b,individual_logit_sum,pair_feature_distance,pair_typicality_p,objective,rank,selected_pair,is_true_real_pair
+oneclass,candidate_2,candidate_3,candidate_2,candidate_3,0.04516829570221553,1.0889295494783109,0.33960595250823766,-0.22482402847283806,1,True,False
+oneclass,candidate_1,candidate_3,candidate_1,candidate_3,-0.6938411556469632,1.3231258512962936,0.6686657400297431,-0.7944589018787926,2,False,False
+oneclass,candidate_0,candidate_3,candidate_0,candidate_3,-0.0821728040538654,0.39511576683914756,0.052478105772688834,-0.8190126113708974,3,False,False
+oneclass,candidate_0,candidate_2,candidate_0,candidate_2,-0.7731088105906727,1.0171178831665384,0.26863074814591614,-1.1017131920521075,4,False,False
+oneclass,candidate_0,candidate_1,candidate_0,candidate_1,-1.5121182619398514,1.256228332036472,0.5664699993196023,-1.6542010514072112,5,False,False
+oneclass,candidate_1,candidate_2,candidate_1,candidate_2,-1.3847771621837706,1.088229975876312,0.3388089151544017,-1.6553569128426315,6,False,False
+oneclass,candidate_3,candidate_4,candidate_3,candidate_4,-1.5747889038935732,2.3478736928346757,0.21746483801673777,-1.956218430346908,7,False,False
+oneclass,candidate_0,candidate_4,candidate_0,candidate_4,-2.3930660101864616,2.3718108243958143,0.1977333035254323,-2.7982750372200775,8,False,False
+oneclass,candidate_2,candidate_4,candidate_2,candidate_4,-2.2657249104303805,2.538568328280696,0.08399024115239938,-2.8849885763416343,9,False,True
+oneclass,candidate_1,candidate_4,candidate_1,candidate_4,-3.004734361779559,2.2105083768063176,0.32681447497594307,-3.2843250177558483,10,False,False
