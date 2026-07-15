@@ -54,4 +54,28 @@ generated_sabr_series.csv
 # data
 data/
 plots/
+
+# 実験・検証時に生成される成果物
+reports/adversarial/
+reports/diagnostics/*_comparison.md
+reports/tables/*_train_5y_*
+reports/tables/mcgan_*.csv
+
+# 一時的な生成モデルの比較・診断スクリプト
+pyfiles/analyze_mcgan_generated.py
+pyfiles/compare_generated_to_5y_regimes.py
+pyfiles/compare_makieda_train_5y.py
+pyfiles/diagnose_generated_series.py
+pyfiles/evaluate_adversarial_detectors.py
+pyfiles/evaluate_block_generator_identification.py
+pyfiles/evaluate_dgs10_tick_ablation.py
+pyfiles/evaluate_quantgan_multiseed.py
+pyfiles/generate_quantgan_1260.py
+pyfiles/generate_sigcwgan_mcgan_1260.py
+pyfiles/identify_real_vs_generated.py
+pyfiles/plot_quantgan_generated.py
+pyfiles/postprocess_rank_map.py
+pyfiles/summarize_quantgan_fake_data.py
+pyfiles/summarize_quantgan_generated_stats.py
+pyfiles/train_adversarial_block_gan.py
 他人のコード/
